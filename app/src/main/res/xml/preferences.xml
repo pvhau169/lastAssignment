@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <CheckBoxPreference
+        android:id="@+id/twoBox"
+        android:checked="false"
+        android:key="two"
+        android:title="count by two"
+        android:onClick="twoBoxChange"
+        />
+    <CheckBoxPreference
+        android:id="@+id/fiveBox"
+        android:checked="false"
+
+        android:key="five"
+        android:title="count by five"
+        android:onClick="fiveBoxChange"
+        />
+    <CheckBoxPreference
+        android:id="@+id/tenBox"
+        android:checked="false"
+
+        android:key="ten"
+        android:title="count by ten"
+        android:onClick="tenBoxChange"
+        />
+</PreferenceScreen>
